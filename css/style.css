@@ -1,0 +1,28 @@
+/* reset */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* home */
+
+body{
+	background-color: #fafafa;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+}
+
+.info{
+	position: relative;
+	top: 40%;
+	transform: translateY(-50%);
+}
+
+h2, h3{
+	text-align: center;
+	padding-bottom: 10px;
+}
