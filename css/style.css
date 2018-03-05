@@ -8,7 +8,7 @@
 /* home */
 
 body{
-	background-color: #fafafa;
+	background-color: #F4EAE4;
 }
 
 section{
@@ -22,7 +22,22 @@ section{
 	transform: translateY(-50%);
 }
 
-h2, h3{
+.info a{
+	text-decoration: none;
+	color: #213443;
+}
+
+.info a:hover{
+	text-decoration: underline;
+}
+
+.info h2, h3{
 	text-align: center;
 	padding-bottom: 10px;
 }
+
+.info h2{
+	color: #734052;
+	font-size: 2em;
+}
+
