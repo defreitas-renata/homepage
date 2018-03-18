@@ -1,0 +1,133 @@
+/* reset */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* home */
+
+body{
+	background-color: #F4EAE4;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+section{
+	max-width: 960px;
+	margin: 60px auto;
+}
+
+p{
+	line-height: 1.25em;
+}
+
+/* header */
+
+header{
+	background-color: #734052;
+	color: #f4eae4;
+}
+
+.header-container{
+	height: 100px;
+	padding: 0 38px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header h2{
+	font-size: 2em;
+	float: left;
+	position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+}
+
+.header-info {
+	float: right;
+	position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+
+.header-info p{
+	padding: 2px 0;
+}
+
+.header-info a{
+	color: #f4eae4;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.header-info a:hover{
+	text-decoration: underline;
+}
+
+header::after{
+	content:'';
+	display: table;
+	clear: both;
+}
+
+/* teaching */
+
+.teaching{
+	color: #213443;
+}
+
+.teaching-info {
+	margin: 20px 0;
+}
+
+.teaching h3{
+	padding-bottom: 15px;
+	font-size: 1.5em;
+}
+
+.teaching h4{
+	padding-bottom: 10px;
+	font-size: 1.125em;
+}
+
+.teaching p{
+	padding: 3px 0;
+}
+
+.teaching a{
+	color: #213443;
+}
+
+.teaching a:hover{
+	text-decoration: none;
+	color: #ef6270;
+}
+
+.teaching h4{
+	padding-top: 15px;
+}
+
+/* footer */
+
+footer{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+footer .previous-page{
+	float: right;
+	width: 80px;
+	border-top: 3px solid #213443;
+	padding: 5px;
+}
+
+footer h3 a{
+	text-decoration: none;
+	color: #213443;
+}
+
+footer h3 a:hover{
+	color: #ef6270;
+}
