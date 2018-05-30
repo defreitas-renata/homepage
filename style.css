@@ -5,12 +5,25 @@
 	padding: 0;
 }
 
+.clear{
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
 /* home */
 
 body{
 	background-color: #F4EAE4;
-	font-family: sans-serif;
-	height: 100vh;
+	font-family: 'Space Mono', monospace;
 }
 
 section{
@@ -25,8 +38,8 @@ p{
 /* header */
 
 header{
-	background-color: #734052;
-	color: #f4eae4;
+	background-color: #063a5e;
+	color: #F4EAE4;
 }
 
 .header-container{
@@ -38,6 +51,8 @@ header{
 
 header h2{
 	font-size: 2em;
+	font-weight: 100;
+	text-transform: uppercase;
 	float: left;
 	position: relative;
         top: 50%;
@@ -63,7 +78,7 @@ header h2{
 }
 
 .header-info a:hover{
-	text-decoration: underline;
+	color: #a7e0d6;
 }
 
 header::after{
@@ -75,10 +90,11 @@ header::after{
 /* teaching */
 
 .teaching{
-	color: #213443;
+	color: #063a5e;
 }
 
 .teaching-info {
+	width: 430px;
 	margin: 20px 0;
 }
 
@@ -88,7 +104,7 @@ header::after{
 }
 
 .teaching h4{
-	padding-bottom: 10px;
+	padding: 15px 0;
 	font-size: 1.125em;
 }
 
@@ -97,7 +113,7 @@ header::after{
 }
 
 .teaching a{
-	color: #213443;
+	color: #063a5e;
 }
 
 .teaching a:hover{
@@ -105,24 +121,83 @@ header::after{
 	color: #ef6270;
 }
 
-.teaching h4{
-	padding-top: 15px;
+.line{
+	width: 960px;
+	height: 1px;
+	background-color: #063a5e;
+	margin: 40px 0;
+}
+
+.teaching .classes-2018{
+	width: 960px;
+	height: 230px;
+	margin: 0 auto;
+}
+
+.teaching .classes-2018 h4{
+	text-align: center;
+}
+
+.teaching .gan{
+	background-color: rgba(167,224,214,.4);
+	text-align: center;
+	margin: 20px 0;
+	width: 430px;
+	padding: 30px 0;
+}
+
+.teaching .classes-2018 a{
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+.teaching .classes-2018 a:hover{
+	cursor: pointer;
+	color: #063a5e; 
+}
+
+.teaching .left .gan:hover{
+	border-left: 5px solid rgba(6,58,94,.5);
+	border-bottom: 5px solid rgba(6,58,94,.5);
+}
+
+.teaching .right .gan:hover{
+	border-right: 5px solid rgba(6,58,94,.5);
+	border-bottom: 5px solid rgba(6,58,94,.5);
 }
 
 /* footer */
 
 footer{
 	max-width: 960px;
-	margin: 30px auto;
-	color: #213443;
+	margin: 10px auto;
+	color: #063a5e; 
+}
+
+footer .footer-container{
+	//position: relative;
+}
+
+footer .contact{
+	//float: left;
 }
 
 footer .contact h4{
 	padding-bottom: 10px;
 	font-size: 1em;
-	
 }
 
 footer .contact p{
 	font-size: 0.75em;
+}
+
+footer i{
+	font-size: 1.125em;
+	opacity: .8;
+	top: 3%;
+	left: 20%;
+	color: #063a5e;
+	float: left;
+	margin-top: 3px;
+	margin-right: 15px;
 }
