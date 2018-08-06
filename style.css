@@ -100,6 +100,7 @@ header::after{
 .teaching{
 	color: #063a5e;
 	max-width: 960px;
+	min-height: 230px;
 }
 
 .teaching-info-container{
