@@ -227,7 +227,7 @@ footer i{
 @media only screen and (max-width: 1000px){
 
 	.teaching{
-		width: 80%;
+		max-width: 80%;
 	}
 
 	.teaching-info-container{
@@ -235,8 +235,6 @@ footer i{
 	}
 	
 	.right, .left{
-		display: block;
-		width: 430px;
         	margin: 0 auto;
 
 	}
@@ -244,4 +242,57 @@ footer i{
 	footer{
 		width: 80%;
 	}
+}
+
+
+@media only screen and (max-width: 600px){
+	.teaching-info{
+		max-width: 450px;
+	}
+	
+	.teaching .gan{
+		width: 300px;
+		margin: 20px auto;
+	}
+}
+
+@media only screen and (max-width: 450px){
+	.teaching .classes-2018{
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	.teaching-info{
+		max-width: 350px;
+	}
+	.teaching .gan{
+		width: 260px;
+		margin: 20px auto;
+	}
+
+}
+
+@media only screen and (max-width: 400px){
+	.teaching-info{
+		max-width: 300px;
+	}
+	.teaching .gan{
+		width: 240px;
+		margin: 15px auto;
+	}
+
+}
+
+@media only screen and (max-width: 350px){
+	.teaching .classes-2018{
+		max-width: 80%;
+	}
+	.teaching-info{
+		max-width: 280px;
+	}
+	.teaching .gan{
+		width: 220px;
+		margin: 15px auto;
+	}
+	
 }
