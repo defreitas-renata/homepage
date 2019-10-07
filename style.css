@@ -203,8 +203,8 @@ footer .contact{
 }
 
 footer .contact h4{
-	padding-bottom: 10px;
 	font-size: 1em;
+	display: inline;
 }
 
 footer .contact p{
@@ -214,8 +214,6 @@ footer .contact p{
 footer i{
 	font-size: 1.125em;
 	opacity: .8;
-	top: 3%;
-	left: 20%;
 	color: #063a5e;
 	float: left;
 	margin-top: 3px;
