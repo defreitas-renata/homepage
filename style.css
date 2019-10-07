@@ -100,7 +100,7 @@ header::after{
 .teaching{
 	color: #063a5e;
 	max-width: 960px;
-	min-height: 230px;
+	min-height: 130px;
 }
 
 .teaching-info-container{
@@ -186,6 +186,9 @@ header::after{
 	border-bottom: 5px solid rgba(6,58,94,.5);
 }
 
+.teaching ul{
+	list-style-type: circle;
+}
 /* footer */
 
 footer{
