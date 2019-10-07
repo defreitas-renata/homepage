@@ -121,6 +121,7 @@ header::after{
 .teaching h4{
 	padding: 15px 0;
 	font-size: 1.125em;
+	text-align: center;
 }
 
 .teaching p{
@@ -186,9 +187,20 @@ header::after{
 	border-bottom: 5px solid rgba(6,58,94,.5);
 }
 
-.teaching ul{
+.teaching .text-right{
 	list-style-type: circle;
+	text-align: right;
 }
+
+.text-right h4{
+	text-align: right;
+}
+
+.teaching .combinatoria{
+	margin: 40px 0;
+	text-align: center;
+}
+
 /* footer */
 
 footer{
