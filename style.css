@@ -101,6 +101,7 @@ header::after{
 	color: #063a5e;
 	max-width: 960px;
 	min-height: 130px;
+	list-style-type: circle;
 }
 
 .teaching-info-container{
@@ -188,7 +189,6 @@ header::after{
 }
 
 .teaching .text-right{
-	list-style-type: circle;
 	text-align: right;
 }
 
