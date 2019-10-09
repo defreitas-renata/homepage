@@ -113,6 +113,9 @@ header::after{
 	width: 430px;
 	margin: 20px 0;
 }
+.teaching-info h4{
+	text-align: center;
+}
 
 .teaching h3{
 	padding-bottom: 15px;
@@ -122,7 +125,6 @@ header::after{
 .teaching h4{
 	padding: 15px 0;
 	font-size: 1.125em;
-	text-align: center;
 }
 
 .teaching h5{
