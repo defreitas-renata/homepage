@@ -125,6 +125,11 @@ header::after{
 	text-align: center;
 }
 
+.teaching h5{
+	padding: 15px 0;
+	font-size: 1.125em;
+}
+
 .teaching p{
 	padding: 3px 0;
 }
