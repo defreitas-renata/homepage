@@ -160,6 +160,10 @@ header::after{
 	text-align: center;
 }
 
+.teaching .classes-2018 h5{
+	text-align: left;
+}
+
 .teaching .gan{
 	background-color: rgba(167,224,214,.4);
 	text-align: center;
