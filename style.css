@@ -110,8 +110,11 @@ header::after{
 }
 
 .teaching-info {
-	width: 430px;
+	max-width: 430px;
 	margin: 20px 0;
+}
+.teaching-info h4{
+	text-align: center;
 }
 
 .teaching h3{
@@ -122,7 +125,6 @@ header::after{
 .teaching h4{
 	padding: 15px 0;
 	font-size: 1.125em;
-	text-align: center;
 }
 
 .teaching h5{
@@ -247,12 +249,12 @@ footer i{
 footer .update{
 	font-size: 0.85em;
 	text-align: right;
+    margin-top: 10px;
 }
 
 /* responsivo */
 
 @media only screen and (max-width: 1000px){
-
 	.teaching{
 		max-width: 85%;
 	}
@@ -263,18 +265,17 @@ footer .update{
 	
 	.right, .left{
         	margin: 0 auto;
-
 	}
 
-	footer{
-		width: 80%;
+	.footer-container{
+		width: 90%;
 	}
 }
 
 
 @media only screen and (max-width: 600px){
 	.teaching-info{
-		max-width: 450px;
+		max-width: 90%;
 	}
 	
 	.teaching .gan{
@@ -289,9 +290,6 @@ footer .update{
 		margin: 0 auto;
 	}
 
-	.teaching-info{
-		max-width: 350px;
-	}
 	.teaching .gan{
 		width: 260px;
 		margin: 20px auto;
@@ -300,9 +298,6 @@ footer .update{
 }
 
 @media only screen and (max-width: 400px){
-	.teaching-info{
-		max-width: 300px;
-	}
 	.teaching .gan{
 		width: 240px;
 		margin: 15px auto;
@@ -313,9 +308,6 @@ footer .update{
 @media only screen and (max-width: 350px){
 	.teaching .classes-2018{
 		max-width: 80%;
-	}
-	.teaching-info{
-		max-width: 280px;
 	}
 	.teaching .gan{
 		width: 220px;
