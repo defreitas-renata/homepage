@@ -208,8 +208,10 @@ header::after{
 }
 
 .teaching .combinatoria{
-	margin: 40px 0;
+	background-color: rgba(167,224,214,.4);
 	text-align: center;
+	margin: 20px 0;
+	padding: 20px 0;
 }
 
 /* footer */
