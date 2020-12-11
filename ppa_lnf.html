@@ -1,0 +1,513 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Renata de Freitas</title>
+
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <meta name="description" content="Renata de Freitas: professora da UFF."/>
+        <meta name="robots" content="index, follow"/>
+        <meta name="keywords" content="renata, de freitas, uff, professora, matematica"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="header-container">
+                <h2>PPA - Lógica, Números e Funções</h2>
+
+                <div class="header-info">	
+                    <p><a href="https://defreitas-renata.github.io/homepage/" target=_blank>Renata de Freitas</a></p>
+                    <p>freitas @ vm.uff.br</p>
+                </div>
+            </div>
+        </header>
+
+<!-- ****************************************************************************************** -->
+
+<section class="teaching">
+
+<div class="teaching-container">
+<h3>PPA - Perguntas de Períodos Anteriores</h3>
+
+<!--
+<a href="https://defreitas-renata.github.io/homepage/ppa_lnf.html#q2t8" target=_blank>q2t8</a>
+<a href="#q2t8" target=_blank>q2t8</a>
+-->
+
+<ol>
+<li>[Douglas] <i>Professora, na 4 da lista tau as funções são a,c,e,f. A b não é porque lal se relaciona a "a" e "-a". Minha dúvida é:
+1) na "d", por exemplo, se a^2=17 </i>["a^2" é "a elevado ao quadrado"]<i>, a não é inteiro, aí, a relação não é total. Mas se, primeiramente, escolho um "a" inteiro, todo a^2 é inteiro e , consequentemente, a relação é total e funcional;
+2) analogamente, na "g", se 2a=17, a não é inteiro, isto é, a relação não chega a ser total. Contudo, se começo escolhendo um "a" inteiro, todo 2a é inteiro, e, então, a relação passa a ser total e funcional. Não sei se deixei claro minha dúvida.</i>
+<p>
+Na Questão 4, as relações dos itens (a), (c), (e) e (f) são funções - correto!
+<br>
+A relação apresentada no item (b) não é função porque não é funcional (os pares (2,2) e (2,-2) pertencem a R e 2 é diferente de -2, por exemplo).
+<br>
+A relação R no item (b) também não é total (o número -2 pertence ao conjunto de partida, mas não existe nenhum número inteiro x no conjunto de chegada tal que (-2,x) pertence a R, já que -2 não é o módulo de nenhum número). Mas basta citar uma das propriedades que falha (funcionalidade ou totalidade) para justificar porque a relação não é uma função. 
+<br>
+Ao dar um exemplo, é melhor escolher um exemplo concreto, como o meu exemplo "2", no lugar de exemplos <i>genéricos</i>, como o exemplo "a" do Douglas.
+<br>
+A relação apresentada no item (d) não é uma função porque não é total (o número 17 pertence ao conjunto de partida, mas não existe um número inteiro x pertencente ao conjunto de chegada tal que (17,x) pertence a R, já que 17 não é o quadrado de nenhum número) - justificativa com um exemplo concreto, perfeito!
+<br>
+A relação apresentada no item (g), da mesma forma, não é uma função porque não é total (novamente, o número 17 pertence ao conjunto de partida, mas não existe um número inteiro x pertencente ao conjunto de chegada tal que (17,x) pertence a R, já que 17 não é o dobro de nenhum inteiro) - exemplo concreto, muito bem!
+<br>
+Vamos às dúvidas:
+<br>
+(1) Se escolhemos primeiro um número inteiro a e, depois, relacionamos ao número a o número inteiro a^2, estamos pensando na relação que é a inversa da relação apresentada no item (d). Estamos pensando na relação { (a,a^2) : a é um número inteiro }, que é a relação apresentada no item (c). 
+<br>
+(2) O mesmo raciocínio descrito na dúvida (1) vale aqui: se invertemos os pares (2a,a) da relação apresentada no item (g), obtemos a sua inversa { (a,2a) : a é um número inteiro }. Essa última é uma função (pois é funcional e total), mas não é injetiva nem sobrejetiva. Logo, a sua inversa (que é a relação apresentada no item (g) ) não é funcional nem total.
+<br>
+Mais um exercício, para o Douglas e para toda a turma: mostre que a relação { (a,2a) : a é um número inteiro } é injetiva mas não é sobrejetiva e conclua que a relação apresentada no item (g) da Questão 4 da Lista Tau é funcional mas não é total.
+</p>
+<li><i>A composição de funções e a composição de relações são operações diferentes? Mas funções são relações... Como saber se estamos falando da composição de funções ou da composição de relações, se o símbolo é o mesmo?</i>
+<p>O mais comum é usar letras maiúsculas do fim do alfabeto (R, S, T, ...) para denotar relações e letras minúsculas do meio do alfabeto (f, g, h, ...) para denotar funções (relações que são funcionais e totais).
+Quando estamos falando apenas de funções, a notação usual para a composição de uma função f com uma função g é fog, mas nesse contexto a definição de composição é diferente, veja um exemplo:
+<br>
+Dadas as relações R = { (a,|a|) : a é número inteiro } e S = { (a,-a) : a é número inteiro }, temos que RoS = { (a,-a) : a é número inteiro não negativo } U { (a,a) : a é número inteiro negativo }. No entanto, se pensamos em R e S como funções e denotamos a relação R por f e a relação S por g, teríamos f(x)=|x|, g(x)=-x e (fog)(x)=f(g(x))=f(-x)=|-x|=x, ou seja, fog = { (a,a) : a é número inteiro }. Veja que (gof)(x)=g(f(x))=g(|x|)=-|x|, ou seja, gof=RoS.
+Usamos o mesmo símbolo o, mas estamos falando de operações de composição diferentes! A notação ajuda a fazer alguma distinção entre as operações, mas devemos sempre conferir qual é a definição que está sendo usada naquele contexto.</p>
+<li>
+<i>Quando eu tenho uma relação inversa, a funcionalidade é a "injetividade" e assim por diante?</i>
+<p>Se entendi direito o que você escreveu, é isso mesmo. Logo na primeira seção do Texto 10, no finalzinho, temos resultados:
+R é funcional se, e só se, a inversa de R é injetiva;
+R é injetiva se, e só se, a inversa de R é funcional;
+R é total se, e só se, a inversa de R é sobrejetiva;
+R é sobrejetiva se, e só se, a inversa de R é total.</p>
+<li>
+<i>Na 2 do teste </i>[Teste 10 de 2020-1]<i>, pede-se a composição de dois exemplos da 1. Só que, quando calculo a composição de quaisquer dois exemplos meus, o resultado é ø.  A senhora aceita isso como resposta?</i>
+<p>Sim, a relação vazia é uma relação "como outra qualquer" ;-)</p>
+<li>
+<i>Professora, na questao 1 letra c </i>[Teste 10 de 2020-1]<i>, pra mim nao faz sentindo algum. 
+Pra mim nao tem como uma relação ser injetiva e nao ser funçao.</i>
+<p>Na videoaula da Semana 10, digo que a injetividade é verificada "olhando para o conjunto de chegada" e as propriedades que caracterizam funções (totalidade e funcionalidade) são verificadas "olhando para o conjunto de partida". Muitas vezes as propriedades de injetividade e sobrejetividade são definidas apenas para funções. Mas nós definimos estas propriedades no contexto mais geral de relações. Releia o Texto 10, e tente elaborar seu exemplo a partir dos diagramas. Comece com um exemplo de relação que não é uma função (que não é total ou não é funcional), depois modifique a relação (se necessário) para que ela "se torne" injetiva.</p>
+<li>
+<i>Na questão número 1 do teste 10 a senhora pede exemplos de relações... Mh dúvida é, eu posso botar exemplo sem explicações, sem diagramas, sem nada? Só jogar uma relação msm como exemplo?</i>
+<p>Em geral, respostas sem justificativas não valem nada ou valem muito pouco. 
+Neste teste, no entanto, peço apenas exemplos, sem justificativas.Se você der exemplos corretos, ganhará os pontos da questão.
+Por outro lado, se você coloca apenas o exemplo, sem nenhuma explicação, e ele está errado, não é possível avaliar seu raciocínio e dar algum ponto na questão, mesmo que não o total. Minha sugestão, então, é a seguinte: mesmo que você esteja bastante segura das suas respostas, escreva alguma explicação que demonstre o seu raciocínio (faça um diagrama também, se ajudar na explicação).</p>
+<li>
+<i>O conjunto {2,3,4,5} tem dois elementos minimais?</i>
+<p>Antes de responder a questão, um alerta: não faz sentido perguntar se um conjunto tem elementos minimais (ou primeiro elemento, ou último, ou qualquer outra característica relativa à ordem) se não especificamos qual é a relação de ordem considerada. Por outro lado, se temos um conjunto numérico e a relação de ordem não é especificada, todas as pessoas vão pensar que se trata da relação de menor-ou-igual.
+O conjunto {2,3,4,5} com a relação de menor-ou-igual não tem dois elementos minimais. Tem apenas um elemento minimal, que é o número 2. De fato, nesse conjunto, nenhum elemento é menor ou igual a 2 (com exceção do próprio 2). Os elementos 3, 4 e 5 têm outros elementos que são menores ou iguais a eles: sabemos que 2 é menor ou igual a 3, sabemos que 3 é menor ou igual a 4, sabemos 3 é menor ou igual a 5.</p>
+<i>Muitos dos nossos exemplos são com menor ou igual. Mas se fosse maior ou igual, no conjunto {1,1,3,5,5,5} o elemento 5 em multiplicidade 3 é minimal?</i>
+<p>Não faz sentido falar em "multiplicidade" aqui. O conjunto {1,1,3,5,5,5} é igual ao conjunto {1,3,5}. O conjunto {1,3,5} com a relação de maior-ou-igual tem um único elemento minimal, que é o 5.<br>
+No Texto 9, temos exemplos de conjuntos numéricos que possuem mais de um elemento minimal, mas a relação de ordem não é menor-ou-igual nem maior-ou-igual, que são relações "lineares". O conjunto A = {2,3,5,6,10,15,30} dos divisores de 30 diferentes de 1 com a relação R = {(a,b) : a divide b}, por exemplo. No conjunto A, não temos nenhum outro número que divide 2, além do próprio 2. Ou seja, não existe x pertencente a A tal que x é diferente de 2 e (x,2) pertence a R. Logo, 2 é um elemento minimal de A segundo R.</p>
+<i>aaaaah os minimais entao seriam 2, 3 e 5?</i>
+<p>Sim.</p>
+<i>eu so fiquei com dificuldade de formatar esse diagrama</i>
+<p>É mais fácil perceber as propriedades de uma relação de ordem olhando para o seu diagrama de Hasse, mas não é necessário fazer a análise pelo diagrama. Podemos também analisar apenas pelo conjunto de pares ordenados.</p>
+<i>Mas nesse caso aí não tem primeiro elemento né?</i>
+<p>Isso mesmo, se um conjunto tem mais de um elemento minimal com uma certa relação de ordem, então esse conjunto não tem primeiro elemento com essa relação de ordem. Pensando no diagrama de Hasse vemos que "os elementos minimais não têm ninguém abaixo deles" e que "o primeiro elemento está abaixo de todos". No conjunto A = {2,3,5,6,10,15,30} com a relação R = {(a,b) : a divide b}, os números 2, 3 e 5 são elementos minimais (pois não temos nenhum outro número "abaixo" deles), mas nenhum deles é o primeiro elemento, pois nenhum deles está "abaixo" de todos os outros (2 não está "abaixo" de 3, nem 5 está "abaixo" de 2, nem 3 está "abaixo" de 5).<br>
+Podemos usar também esse exemplo para resolver a Questão 5 do Teste 9. Considerando o conjunto A = {2,3,5,6,10,15,30} com a relação de ordem R = {(a,b) : a divide b} e o subconjunto X = {6,10,15} de A, temos que X não tem limite inferior em A (pois nenhum dos elementos de A está abaixo de todos os elementos de X). Logo, o conjunto X não tem ínfimo em A, segundo R. Outro exemplo de um conjunto X que não tem ínfimo em A segundo R, também do texto, é o conjunto X dos números racionais maiores ou iguais a raiz quadrada de 2, considerado como subconjunto do conjunto A dos números racionais, com a relação de ordem usual menor-ou-igual. Esse conjunto X tem limites inferiores em A (os números racionais 0, -1, 1, 1/2, por exemplo), mas o conjunto de todos os limites inferiores de X em A não tem último elemento (no conjunto dos números racionais). Logo, X não tem ínfimo em A, segundo a relação de menor-ou-igual.</p>
+<li>
+<i>Minhas respostas às questões 1 e 2 da lista tau. Funções: "c","d" e "e". A "a" não é função porque é funcional (cada elemento de A se relaciona somente a um elemento de B) e não é total (nem todo elemento de A se relaciona a elemento de B). A "b" também não é, pois é total (todo elemento de A é relacionado a algum elemento de B) e não é funcional.</i>
+<p>Na Questão 1, item (a), a relação é funcional. Logo, para justificar que não é uma função, basta citar que não é total. Da mesma forma, no item (b), basta citar que não é funcional, para justificar porque não é uma função. Respostas: (1) as relações (c), (d) e (e) são funções; (2) as relações (a), (c), (d) e (e) são funcionais.</p>
+<li>
+<i>Na pág. 10 do texto 9 (ordem dos naturais, desafio 1), pede-se definir último elemento: "Dizemos que "a" é último elemento de A segundo R quando para todo "b" pertencente a A, temos que (a,b) não pertence a R". Seria esta a definição?</i>
+<p>Isso mesmo, mas cuidado: só faz sentido falar em elementos minimais/maximais, primeiro e último, limites inferiores/superiores, ínfimo/supremo, com respeito a uma relação de ordem. Assim como só faz sentido discutir se uma relação é, ou não é, discreta ou densa, se a relação for uma relação de ordem. Só faz sentido discutir se um conjunto é completo, ou não, se é limitado, ou não, com respeito a uma relação de ordem. Então a definição deve começar com "Seja R uma relação de ordem em um conjunto A."</p>
+<li>
+[Douglas] <i>Na página 7 do texto 9 (A5), na relação R em que "a" divide "b", por que não haveria um traço ligando o 2 ao 30 direto?</i><br>
+[Allan] <i>acho que não tem um direto em 30, pois já está subentendido que o 2, o 3, e o 5 dividem 30, pq o traço indica qual número divide o outro número (exemplo: há um traço entre 5 e 15, pois 5 divide 15) e, por exemplo, tem um traço entre 2 e 10, e 10 e 30 estes indicam que 2 divide 10 e que 10 divide 30, ou seja, 2 divide 30, por essa transitividade da divisão acho que não necessário ter um traço direto.</i>
+<p>Na relação de ordem, como os pares (2,10) e (10,30), por exemplos, pertencem a R, o par (1,30) também pertence a R. No diagrama de Hasse de R, no entanto, nem todos os pares que pertencem a R são representados por traços. Não representamos os pares de mesma coordenada (que já sabemos pertencer a R em razão da reflexividade) e não representamos os pares (a,b) para os quais existe c tal que (a,c) e (c,b) pertencem a R (que já sabemos pertencer a R em razão da transitividade). As perguntas do Douglas indicam que ele entendeu bem as propriedades da relação de ordem. A resposta do Allan indica que ele entendeu bem a representação de uma relação de ordem através de um diagrama de Hasse. :D</p>
+<li>
+<i>Mesmo com a explicação bem detalhada no pdf da aula 9, não consegui entender como montar um Diagramas de Hasse.</i>
+<p>Encontrei erros de digitação no texto (que já corrigi), que talvez tenham atrapalhado o seu entendimento. Agradeço por você ter chamado a minha atenção para o problema.
+<br>
+Uma outra maneira (diferente do que está escrito no texto) de desenhar o diagrama de Hasse para uma relação de ordem R em um conjunto A é fazer o seguinte:
+1. desenhe um ponto para cada elemento de A, de modo que, quando o par (x,y) pertence a R, no desenho o ponto que representa o elemento y fica acima do ponto que representa o elemento x;
+2. para cada par (x,y) que pertence à relação R, desenhe um traço ligando os pontos que representam os elementos x e y, no desenho;
+3. apague todos os traços que ligam um ponto a si mesmo;
+4. apague todos os traços que ligam pontos que estão ligados também por uma sequência de traços passando por outros pontos.
+<br>
+De qualquer forma, não se preocupem: esse semestre não estamos focando nas representações por diagrama.(Vocês devem ter observado que nenhum exercício da Lista Sigma depende da representação de relações de ordem por um diagrama de Hasse, por exemplo.)</p>
+<a name="q2t8"><li></a>
+[Douglas] <i>Podemos discutir as minhas respostas para a Questão 2 do Teste 8:</i><br>
+<i>a) R={(1,1),(2,2),(3,3),(2,3),(3,2)}</i><br>
+<i>b) R={(1,1),(2,2),(3,3),(1,2),(2,3),(1,3)}</i><br>
+<i>c) R={(1,2),(2,1),(2,3),(1,3),(3,2),(3,1)}</i><br>
+<p>No item (a), a relação é reflexiva e simétrica, mas também é transitiva.<br>
+Para obter uma relação que não é transitiva, a partir desse exemplo do Douglas, acrescentamos o par (1,2):<br>
+a) R'={(1,1),(2,2),(3,3),(2,3),(3,2),(1,2)}<br>
+Agora temos uma relação R' que não é transitiva, por os pares (1,2) e (2,3) pertencem a R' mas o par (1,3) não pertence a R'.<br>
+No entanto, acrescentando o par (1,2), a relação perdeu a propriedade da simetria: R' não é simétrica, por o par (1,2) pertence a R', mas o par (2,1) não pertence a R'.<br>
+Para obter uma relação simétrica a partir de R', acrescentamos o par (2,1):<br>
+a) R''={(1,1),(2,2),(3,3),(2,3),(3,2),(1,2),(2,1)}<br>
+Agora, sim! A relação R'' é reflexiva (pois para cada um dos elementos 1, 2 e 3 de A, os pares (1,1), (2,2) e (3,3) pertencem a R''), a relação R'' é simétrica (pois para cada um dos pares (1,1), (2,2), (3,3), (2,3), (3,2), (1,2) e (2,1) pertencentes a R'', os pares invertidos (1,1), (2,2), (3,3), (3,2), (2,3), (2,1) e (1,2) também pertencem a R'') e R'' não é transitiva (pois os pares (1,2) e (2,3) pertencem a R'' mas o par (1,3) não pertence a R'').<br>
+<br>
+No item (b), a relação é reflexiva e transitiva, e não é simétrica.<br>
+De fato:<br>
+b) R={(1,1),(2,2),(3,3),(1,2),(2,3),(1,3)}<br>
+A relação R é reflexiva (pois para cada um dos elementos 1, 2 e 3 de A, os pares (1,1), (2,2) e (3,3) pertencem a R), a relação R é transitiva (pois sempre que encontramos um par em R que tem a segunda coordenada igual à primeira coordenada de um outro par (e isso acontece sete vezes) encontramos também o par obtido colocando a primeira coordenada do primeiro par e a segunda coordenada do segundo par:<br>
+(1,1) e (1,2) pertencem a R, e (1,2) pertence a R;<br>
+(1,1) e (1,3) pertencem a R, e (1,3) pertence a R;<br>
+(2,2) e (2,3) pertencem a R, e (2,3) pertence a R;<br>
+(1,2) e (2,2) pertencem a R, e (1,2) pertence a R;<br>
+(1,2) e (2,3) pertencem a R, e (1,3) pertence a R;<br>
+(2,3) e (3,3) pertencem a R, e (2,3) pertence a R;<br>
+(1,3) e (3,3) pertencem a R, e (1,3) pertence a R.<br>
+E a relação R não é simétrica (pois o par (1,2) pertence a R, mas o par (2,1) não pertence a R).<br>
+<br>
+No item (c), a relação não é reflexiva e é simétrica, mas não é transitiva:<br>
+c) R={(1,2),(2,1),(2,3),(1,3),(3,2),(3,1)}<br>
+De fato, R não é reflexiva, pois o par (1,1) não pertence a R. A relação R é simétrica, pois sempre que temos um par (x,y) pertencente a R, o par com as coordenadas invertidas (y,x) também pertence a R:<br>
+(1,2) pertence a R, e (2,1) também pertence a R;<br>
+(2,1) pertence a R, e (1,2) também pertence a R;<br>
+(2,3) pertence a R, e (3,2) também pertence a R;<br>
+(1,3) pertence a R, e (3,1) também pertence a R;<br>
+(3,2) pertence a R, e (2,3) também pertence a R;<br>
+(3,1) pertence a R, e (1,3) também pertence a R.<br>
+No entanto, R não é transitiva, pois os pares (1,2) e (2,1) pertencem a R, mas o par (1,1) não pertence a R.<br>
+Se acrescentamos o par (1,1), temos:<br>
+c) R1={(1,2),(2,1),(2,3),(1,3),(3,2),(3,1),(1,1)}.<br>
+Mas essa relação R1 ainda não é transitiva, pois os pares (2,1) e (1,2) pertencem a R1, mas o par (2,2) não pertence a R1.<br>
+Se acrescentamos também o par (2,2), temos:<br>
+c) R2={(1,2),(2,1),(2,3),(1,3),(3,2),(3,1),(1,1),(2,2)}.<br>
+Mas essa relação R2 também não é transitiva, pois os pares (3,2) e (2,3) pertencem a R2, mas o par (3,3) não pertence a R2.<br>
+Se acrescentamos também o par (3,3), temos:<br>
+c) R3={(1,2),(2,1),(2,3),(1,3),(3,2),(3,1),(1,1),(2,2),(3,3)}.<br>
+Mas, agora, a relação R3 não é reflexiva, pois os três pares (1,1), (2,2) e (3,3) pertencem a R3.<br>
+Tentamos obter uma relação transitiva a partir do exemplo (c) do Douglas acrescentando pares na relação. Outra opção seria tentar obter a transitividade retirando pares. Vamos tentar:<br>
+<br>
+A relação apresentada pelo Douglas era:<br>
+c) R={(1,2),(2,1),(2,3),(1,3),(3,2),(3,1)}.<br>
+Como vimos, essa relação R não é transitiva, pois os pares (1,2) e (2,1) pertencem a R, mas o par (1,1) não pertence a R.<br>
+Vamos tentar obter a transitividade, retirando o par (1,2):<br>
+c) R4={(2,1),(2,3),(1,3),(3,2),(3,1)}.<br>
+Agora a relação R4 não é simétrica, pois o par (2,1) pertence a R4, mas o par (1,2) não pertence a R4. Vamos retirar o par (2,1) também:<br>
+c) R5={(2,3),(1,3),(3,2),(3,1)}.<br>
+A relação R5 é simétrica, pois para cada um dos pares que pertencem à relação, o par invertido também pertence. De fato, temos quatro pares pertencentes a R5 e para cada um deles, o par invertido também pertence a R5:<br>
+(2,3) pertence a R5, e (3,2) também pertence a R5;<br>
+(1,3) pertence a R5, e (3,1) também pertence a R5;<br>
+(3,2) pertence a R5, e (2,3) também pertence a R5;<br>
+(3,1) pertence a R5, e (1,3) também pertence a R5.<br>
+Mas R5 não é transitiva, pois os pares (2,3) e (3,2) pertencem a R5, mas o par (2,2) não pertence.<br>
+Vamos, então, retirar os pares (2,3) e (3,2) ao mesmo tempo, para tentar obter a transitividade sem perder a simetria:<br>
+c) R6={(1,3),(3,1)}.<br>
+A relação R6 ainda não é transitiva, pois os pares (1,3) e (3,1) pertencem a R6, mas o par (1,1) não pertence a R6. Acrescentando o par (1,1), obtemos:<br>
+c) R7={(1,3),(3,1),(1,1)}.<br>
+A relação R7 também não é transitiva ainda, pois os pares (3,1) e (1,3) pertencem a R6, mas o par (3,3) não pertence a R6. Acrescentando o par (3,3), obtemos:<br>
+c) R8={(1,3),(3,1),(1,1),(3,3)}.<br>
+A relação R8, finalmente, é simétrica e transitiva, mas não é reflexiva.<br>
+A relação R8 não é reflexiva, pois o elemento 2 pertence a A, mas o par (2,2) não pertence a R8.<br>
+<br>
+Se tivéssemos continuado com o procedimento de ir retirando pares para tentar obter a transitividade, a partir de R6={(1,3),(3,1)}, retirando o par (1,3), obteríamos R9={(3,1)}, que é uma relação transitiva, mas não é simétrica. Retirando o par (3,1), para obter a simetria, teríamos a relação vazia R10={ }. A relação vazia não é reflexiva, pois o elemento 1 pertence a A, mas o par (1,1) não pertence à relação vazia. A relação vazia é simétrica, pois todo par que pertence à relação vazia tem seu inverso também na relação, pelo simples fato de que nenhum par pertence à relação vazia. Da mesma forma, a relação vazia é transitiva, pois não temos pares (x,y) e (y,z) na relação vazia sem que aja também o par (x,z), simplesmente porque a relação vazia não possui nenhum par como elemento.</p>
+<li>
+<p>Vamos refazer a Questão 2 do Teste 8, todos juntos, aqui no mural. Escrevam aqui suas respostas desta questão, para discutirmos juntos.</p>
+<br>[Evandro]<br> <i>
+2-a) {(1,1), (2,2), (1,2), (2,1), (1,3), (3,1)}.<br>
+2-b) {(1,1), (2,2), (3,3), (1,2), (2,3), (1,3)}.<br>
+2-c) {(1,2), (2,3), (1,3), (3,1), (3,2)}.</i>
+<p>A relação {(1,1), (2,2), (1,2), (2,1), (1,3), (3,1)} não é reflexiva. Por quê?<br>
+A relação {(1,1), (2,2), (3,3), (1,2), (2,3), (1,3)} é reflexiva e transitiva, não é simétrica. Por que não é simétrica?<br>
+A relação {(1,2), (2,3), (1,3), (3,1), (3,2)} não é reflexiva (por quê?), não é simétrica (por quê?), e não é transitiva (por quê?).</p>
+[resposta enviada por email]<br> <i>
+2)a) {(1,1),(2,2),(3,3),(1,2),(2,3),(2,1),(3,2)}.<br>
+b) {(1,1),(2,2),(3,3),(1,2),(2,3),(1,3)}.<br>
+c) {(1,2),(2,1),(1,1),(2,2)}.<br>
+Estas respostas estão corretas?</i>
+<br>
+<br>[Kamily]<br> <i>
+2-a) {(1,1),(2,2),(3,3),(1,2),(2,1),(3,2),(2,3)}.<br>
+ b) {(1,1),(2,2),(3,3),(1,2),(2,3),(1,3)}.<br>
+ c) {(1,2),(2,1),(3,2),(2,3)(1,3),(3,1)}.</i><br>
+<br>
+[Juliemilly] <i>
+{(1,1), (2,2), (1,2), (2,1), (1,3), (3,1)} não é reflexiva, pois para ser reflexiva precisa apresentar todos os pares da IdA e neste caso faltou o par (3,3).
+<br>
+{(1,1), (2,2), (3,3), (1,2), (2,3), (1,3)} é reflexiva e transitiva, não é simétrica pois precisa que exista um (x,y) e (y,x) pertencente a relação R, neste caso há (1,2) mas não (2,1).
+<br>
+{(1,2), (2,3), (1,3), (3,1), (3,2)} não é reflexiva pois não há nenhum elemento da IdA={(1,1),(2,2),(3,3)} nesta relação , não é simétrica pelo mesmo motivo descrito acima, há o elemento (1,2) mas não há o elemento (2,1).  e não é transitiva pois para ser precisa que para todos elementos (x,y) e (y,z) pertencentes a relação, haja também (x,z). Neste caso há (1,3) e (3,1) mas não há o elemento (1,1), logo ñ é transitiva.
+<br>
+No caso da resposta enviada por e-mail estão todas corretas.
+<br>
+As minhas respostas foram:<br>
+2-a) {(1,1),(2,2),(3,3),(1,3),(3,2),(3,1),(2,3)}.<br>
+ b) {(1,1),(2,2),(3,3),(1,2),(2,3),(1,3)}.<br>
+ c {(1,1),(2,2),(1,3),(3,1)}. <br>
+<br>
+A (c) está errada pois para ser transitiva precisaria do elemento (3,3) no lugar de (2,2).</i>
+<br>
+<br>[Douglas]<br> <i>
+a) {(1,1),(2,2),(3,4),(4,3)}.<br>
+b) {(1,1),1,2),(2,3),(1,3)}.<br>
+c) {(1,1),(1,2)}.<br>
+Agora que eu reparei que a questão mandava usar só 1,2 e 3.
+<br>
+Eu acho que minha resposta deveria ser:<br>
+a) {(1,1),(2,2),(3,3),(2,3),(3,2)}.<br>
+b) {(1,1),(2,2),(3,3),(1,2),(2,3),(1,3)}.<br>
+c) {(1,2),(2,1),(2,3),(1,3),(3,2),(3,1)}.</i><br>
+<br><p>
+Na resposta da Kamily, os itens (a) e (b) estão corretos, mas a relação no item (c) não é transitiva: os pares (1,2) e (2,1) pertencem à relação, mas o par (1,1) não pertence, por exemplo.
+<br>
+Na resposta do Douglas, o item (b) está correto. Mas a relação no item (a) é transitiva e a relação no item (c) não é.
+</p>
+<li>
+<p>As propriedades de simetria e transitividade têm uma diferença importante em relação à reflexividade.<br>
+Quando dizemos que uma relação R em A é simétrica, afirmamos que:<br>
+para todos x e y pertencentes a A, <strong>se</strong> (x,y) pertence a R, então (y,x) pertence a R.<br>
+Assim, ao verificar se uma relação é simétrica, só precisamos nos preocupar quando encontramos um par (x,y) pertencente a R, porque, aí, temos que verificar se o par (y,x) também pertence a R. Em relação aos pares que não pertencem a R, não há nada a fazer.
+<br>
+De forma análoga, quando dizemos que uma relação R em A é transitiva, afirmamos que:<br>
+para todos x ,y e z pertencentes a A, <strong>se</strong> (x,y) e (y,z) pertencem a R, então (x,z) pertence a R.<br>
+Assim, ao verificar se uma relação é transitiva, só precisamos nos preocupar quando encontramos pares (x,y) e (y,z) pertencentes a R, porque, aí, temos que verificar se o par (x,z) também pertence a R.
+<br>
+Com a reflexividade é diferente.<br>
+Quando dizemos que uma relação R em A é reflexiva, afirmamos que:<br>
+para todo x pertencente a A, temos que (x,x) pertence a R.<br>
+Assim, ao verificar se uma relação é reflexiva, temos que verificar se o par (x,x) pertence a R, para cada um dos elementos x pertencentes a A.
+<br>
+A relação R={(1,1),(2,2),(3,3),(3,1),(1,3)} em A={1,2,3} é reflexiva, porque, para cada um dos elementos de A (que são três, a saber: o número 1, o número 2 e o número 3), temos os pares de mesma coordenada (1,1), (2,2) e (3,3) pertencentes a R.<br>
+A relação R={(1,1),(2,2),(3,3),(3,1),(1,3)} em A={1,2,3} é simétrica, porque, para cada par pertencente à relação R (que são cinco, a saber: o par (1,1), o par (2,2), o par (3,3), o par (3,1) e o par (1,3) ), o par obtido invertendo-se as coordenadas também pertence a R. De fato:<br>
+invertendo as coordenadas de (1,1), obtemos (1,1), que pertence a R;<br>
+invertendo as coordenadas de (2,2), obtemos (2,2), que pertence a R;<br>
+invertendo as coordenadas de (3,3), obtemos (3,3), que pertence a R;<br>
+invertendo as coordenadas de (3,1), obtemos (1,3), que pertence a R;<br>
+invertendo as coordenadas de (1,3), obtemos (3,1), que pertence a R.<br>
+E a relação R={(1,1),(2,2),(3,3),(3,1),(1,3)} em A={1,2,3} também é transitiva, porque sempre que encontramos um par pertencente a R que tem a segunda coordenada igual à primeira coordenada de outro par pertencente a R (e temos essa situação acontecendo oito vezes, a saber: (1,1) e (1,1), (1,1) e (1,3), (3,3) e (3,3), (3,3) e (3,1), (3,1) e (1,1),  (3,1) e (1,3), (1,3) e (3,3), (1,3) e (3,1) ), o par que formamos com a primeira coordenada do primeiro par e a segunda coordenada do segundo par também pertence a R. De fato:<br>
+com a primeira coordenada de (1,1) e a segunda coordenada de (1,1), formamos o par (1,1), que pertence a R;<br>
+com a primeira coordenada de (1,1) e a segunda coordenada de (1,3), formamos o par (1,3), que pertence a R;<br>
+com a primeira coordenada de (3,3) e a segunda coordenada de (3,3), formamos o par (3,3), que pertence a R;<br>
+com a primeira coordenada de (3,3) e a segunda coordenada de (3,1), formamos o par (3,1), que pertence a R;<br>
+com a primeira coordenada de (3,1) e a segunda coordenada de (1,1), formamos o par (3,1), que pertence a R;<br>
+com a primeira coordenada de (3,1) e a segunda coordenada de (1,3), formamos o par (3,3), que pertence a R;<br>
+com a primeira coordenada de (1,3) e a segunda coordenada de (3,3), formamos o par (1,3), que pertence a R;<br>
+com a primeira coordenada de (1,3) e a segunda coordenada de (3,1), formamos o par (1,1), que pertence a R.</p>
+<li>
+<i>Tenho uma pequena curiosidade: a disciplina lecionada é Lógica, Números e Funções, mas qual seria, digamos que oficialmente, o ramo da matemática em que se enquadra?</i>
+<p>Sua curiosidade é plenamente justificada porque, de fato, o nome da disciplina não descreve muito bem o nosso conteúdo. O que estamos discutindo no nosso curso são rudimentos de Teoria dos Conjuntos, um ramo da Matemática ligado à fundamentação da Matemática e à Lógica, no qual existe bastante pesquisa sendo feita. Aliás, esse é um bom exemplo de uma área de pesquisa teórica (com interesse intrínseco à Matemática apenas, a princípio) e que tem resultados aplicados na indústria, por exemplo, no desenvolvimento de sistemas de reconhecimento de linguagem natural - trabalho da Profa Valeria de Paiva (Samsung Research America), co-autora do Prof Samuel Gomes da Silva (UFBA). Valéria é cientista da computação, Samuel faz pesquisa em Teoria dos Conjuntos.
+<i>Poderia se chamar também matemática discreta?</i>
+<p>No currículo da maior parte dos cursos de Computação (no da UFF, 
+inclusive) temos uma disciplina chamada Matemática Discreta cujo 
+programa tem uma interseção grande com o nosso programa, sim!</p>
+<li>
+<i>Na página 6 do texto da semana 8, o "a" pertencente a X é número natural, não é?</i>
+<p>Estamos falando da Definição 11 (união de famílias), na página 6 da versão A5 do texto, certo? Na Definição 11, "a" pertence a um universo U qualquer. Estamos definindo união de famílias de subconjuntos de um universo qualquer, o universo pode ser o conjunto dos naturais mas também pode ser qualquer outro conjunto.</p>
+<li>
+<i>Fiquei um pouco confusa com o conceito de transitividade</i>
+<p>Talvez uma mudança de notação ajude: vamos escrever aRb no lugar de (a,b) pertence a R. Uma relação R em um conjunto A é transitiva quando, para todos os elementos a, b e c de A, se aRb e bRc (em R temos um "caminho" de a para c passando por b), então aRc (temos também o caminho direto de a para c, sem paradas intermediárias). Uma relação não é transitiva quando tem algum caminho com paradas intermediárias sem ter o caminho direto.</p>
+<li>
+<i>Em união generalizada não entendi o pq Se F1 ⊆ F2, entao UF1 ⊆UF2 , vc pode comentar pq essa propriedade é verdade?</i>
+<p>Suponhamos que F1 ⊆ F2. Para mostrar que UF1 ⊆ UF2, seja x pertencente a UF1. Como x pertence a UF1, x pertence a A, com A pertencente a F1. Como F1 ⊆ F2 e A pertence a F1, temos que A pertence também a F2. Como x pertence a A e A pertence a F2, temos que x pertence a UF2. Tomamos um elemento "genérico" x de UF1 e mostramos que x pertence a UF2. Logo, qualquer objeto que pertença a UF1, vai pertencer também a UF2. Ou seja, UF1 ⊆ UF2.</p>
+<li>
+<i>Na questão 1e do sétimo teste, pede-se o complementar de R U IdA. Desejo saber se o conjunto-universo é o conjunto das partes de A. Pois o A tem 3 elementos que são números e não pares ordenados. Já R U IdA é conjunto cujos elementos são pares ordenados. Ou se o universo seria o conjunto de pares ordenados (a,b), em que a,b pertencem a A.</i>
+<p>Quando estamos aplicando as operações algébricas (interseção, união, complementação, diferença) em relações (binárias) em um conjunto A, o conjunto universo é AxA (o conjunto dos pares ordenados (a,b) em que a,b pertencem a A).</p>
+<i>[Juliana] Professora,não entendi bem essa questão. Então,seria o próprio R?</i>
+<p>"Quem" seria o próprio R? A relação R e o conjunto de pares ordenados formados por elementos de A, ou seja, AxA, não são iguais. A relação R está contida em AxA, mas o par (1,3), por exemplo, pertence a AxA mas não pertence a R. Para calcular o que se pede no item 1(e), faça "as contas" por etapas: calcule primeiro a relação identidade IA, depois faça a união de R com IA, por fim calcule o complementar da união de R com IA em relação ao universo AxA.</p>
+<li>
+<i>Com a explicação do pdf e do vídeo não consegui compreender essa parte da matéria (Quiz 7). Pesquisei em outras fontes também, mas mesmo assim não consegui entender como achar a composição.</i>
+<p>Quando as relações R e S são apresentadas por listagem, para calcular RoS você pode fazer o seguinte:<br>
+1. percorra a lista de elementos da relação R e considere um par de cada vez,<br>
+2. pegue um par (x,y) na relação R,<br>
+3. procure na relação S um par que tenha y na primeira coordenada,<br>
+4. para cada par (y,z) encontrado em S, escreva o par (x,z) na lista de elementos de RoS,<br>
+5. pegue o próximo par (x,y) na lista da relação R e repita os passos 3 e 4.<br>
+<br>
+Por exemplo, dadas as relações R={(1,2),(1,3),(2,3),(3,3),(3,4)} e S={(1,1),(1,2),(2,1),(3,1),(3,2),(3,4)}, podemos calcular RoS assim:<br>
+<br>
+Pegamos o primeiro par em R: (1,2),<br>
+procuramos em S os pares que têm 2 na primeira coordenada e encontramos apenas um par: (2,1),<br>
+montamos então o par (1,1), usando a primeira coordenada do par (1,2) de R e a segunda coordenada do par (2,1) de S, e começamos a lista de elementos de RoS com o par (1,1):<br>
+<br>
+lista (em construção) de elementos de RoS : (1,1).<br>
+<br>
+Pegamos o segundo par em R: (1,3),<br>
+procuramos em S os pares que têm 3 na primeira coordenada e encontramos três pares: (3,1), (3,2) e (3,4),<br>
+montamos então os pares (1,1), (1,2) e (1,4), usando a primeira coordenada do par (1,2) de R e a segunda coordenada de cada um dos pares (3,1), (3,2) e (3,4) de S, e acrescentamos os pares (1,1), (1,2) e (1,4) na lista de elementos de RoS: <br>
+<br>
+lista (em construção) de elementos de RoS: (1,1), (1,1), (1,2), (1,4).<br>
+<br>
+Pegamos o terceiro par em R: (2,3),<br>
+procuramos em S os pares que têm 3 na primeira coordenada e encontramos três pares: (3,1), (3,2) e (3,4),<br>
+montamos então os pares (2,1), (2,2) e (2,4), usando a primeira coordenada do par (2,3) de R e a segunda coordenada de cada um dos pares (3,1), (3,2) e (3,4) de S, e acrescentamos os pares (2,1), (2,2) e (2,4) na lista de elementos de RoS: <br>
+<br>
+lista (em construção) de elementos de RoS: (1,1), (1,1), (1,2), (1,4), (2,1), (2,2), (2,4).<br>
+<br>
+Pegamos o quarto par em R: (3,3),<br>
+procuramos em S os pares que têm 3 na primeira coordenada e encontramos três pares: (3,1), (3,2) e (3,4),<br>
+montamos então os pares (3,1), (3,2) e (3,4), usando a primeira coordenada do par (2,3) de R e a segunda coordenada de cada um dos pares (3,1), (3,2) e (3,4) de S, e acrescentamos os pares (3,1), (3,2) e (3,4) na lista de elementos de RoS: <br>
+<br>
+lista (em construção) de elementos de RoS: (1,1), (1,1), (1,2), (1,4), (2,1), (2,2), (2,4), (3,1), (3,2), (3,4).<br>
+<br>
+Pegamos o quinto par em R: (3,4),<br>
+procuramos em S os pares que têm 4 na primeira coordenada e não encontramos nenhum par,<br>
+nesse caso, nenhum par é montado e a lista de elementos em RoS permanece a mesma: <br>
+<br>
+lista (em construção) de elementos de RoS: (1,1), (1,1), (1,2), (1,4), (2,1), (2,2), (2,4), (3,1), (3,2), (3,4).<br>
+<br>
+Como (3,4) era o último par em R, terminamos de escrever a lista de elementos de RoS, que ficou assim: <br>
+<br>
+lista (completa) de elementos de RoS: (1,1), (1,1), (1,2), (1,4), (2,1), (2,2), (2,4), (3,1), (3,2), (3,4).<br>
+<br>
+Podemos, agora, eliminar as repetições, para ter uma apresentação melhor da composição de R com S: <br>
+<br>
+RoS = { (1,1), (1,2), (1,4), (2,1), (2,2), (2,4), (3,1), (3,2), (3,4) }.</p>
+<li>
+[Douglas] <i>Fiz o diagrama de Venn primeiro pra resolver </i>[a Questão 1 do Teste 5]<i>, criei pontos no diagrama nas regiões pra criar conjuntos que mostrassem que a afirmativa é falsa. Vi seu vídeo </i>[com a resolução das questões do Teste 5].
+<br>
+[Brunno] <i>Mas o diagrama serve como prova?</i>
+<p>Em Matemática, diagramas (ainda) não são amplamente aceitos como prova. No nosso curso, estamos estudando como apresentar provas que são textos.</p>
+[Bruno] <i>Falando em desenhos para demonstração, elas podem ser inválidas (ainda), mas elas podem ajudar a estruturar o raciocínio... não?</i>
+<br>
+[Douglas] <i>Ajuda. Brunno, o diagrama eu só fiz pra começar, eu escrevi a prova depois.</i>
+<li>
+<p>Os elementos de P(A) são os subconjuntos de A. Vejamos um exemplo:<br>
+Dado A={a,b,c}, os subconjuntos de A são:<br>
+{ } (subconjuntos de A com zero elementos),<br>
+{a}, {b}, {c} (subconjuntos de A com um elemento),<br>
+{a,b}, {a,c}, {b,c} (subconjuntos de A com dois elementos),<br>
+{a,b,c} (subconjuntos de A com três elementos).<br>
+Logo, P(A) = { { }, {a}, {b}, {c}, {a,b}, {a,c}, {b,c}, {a,b,c} }.</p>
+<li>
+<i>Esse símbolo {∅} significa conjunto unitário, né? Por que aqui no exercícios de conjuntos das partes, está aparecendo esse símbolo e eu não estou considerando como conjunto vazio.</i>
+<p>Correto. O conjunto {∅} não é vazio, é o conjunto unitário que tem apenas o conjunto vazio como elemento. (Então não é o conjunto vazio. O conjunto vazio pode ser representado assim: ∅ ou assim: { }.) Existem muitos outros conjuntos unitários: o conjunto {1} cujo único elemento é o número 1, o conjunto {a} cujo único elemento é a letra a, etc. Dado qualquer objeto x no universo de discurso, podemos formar o conjunto unitário {x} cujo único elemento é x. Não temos um único símbolo para representar conjuntos unitários.</p>
+<li>
+<i>Tô fazendo a lista gama, sobre prova por indução, e na terceira questão da 1(1/1×2+...+1/n(n+1)=n/n+1) eu estou chegando a uma divisão entre polinômios a qual não consigo demonstrar ser igual a (n+1)/(n+2), em que n é n+1. Gostaria de saber como procedo.</i>
+<p>
+Uma dica: observe que (n+1)^2 = n^2 + 2n +1 e que, como n+1 é diferente de zero, (n+1)/(n+2) = (n+1)^2/(n+1)(n+2).<br>
+Outra dica: cuidado com a redação. Não podemos iniciar uma justificativa afirmando o que queremos justificar. Então, no passo de indução, não podemos começar com a igualdade que queremos provar. Uma boa ideia é começar do lado esquerdo da igualdade e desenvolver até chegar em uma expressão mais simples. Depois, em um desenvolvimento separado, trabalhar com o lado esquerdo até chegar em uma expressão mais simples. Depois comparar as duas expressões simples obtidas e explicar por que elas são iguais (se é que você já não chegou na mesma expressão simples, tanto a partir do lado esquerdo quanto a partir do lado direito).</p>
+<li>
+<p>Cuidado com a notação!
+Dado um número real a, quando escrevemos -a estamos nos referindo ao simétrico de a, que pode ser tanto positivo quanto negativo (ou nulo) dependendo do valor de a.
+Se a<0, então -a>0. Por exemplo, se a=-3, então -a=-(-3)=3.<br>
+<br>
+Quando a<0, temos que -a>0 e o módulo de a é |a|=-a.<br>
+Por exemplo, quando a=-3, temos que a<0 e |a|=|-3|=3=-(-3)=-a.<br>
+Observe que, quando a=-3, -a=-(-3)=3.<br>
+<br>
+Quando a>=0 e b<0, temos que -b>0. Em relação aos produtos, temos que ab<0 e a(-b)>0. Os módulos de a e b são |a|=a e |b|=-b, e o módulo de ab é |ab|=a(-b)=-ab.<br>
+Por exemplo, quando a=2 e b=-3, temos que a>0 e b<0. Daí, o produto de a por b é ab=2(-3)=-6. Então ab<0. Os módulos de a e b são |a|=|2|=2 e |b|=|-3|=3, e o módulo de ab é |ab|=|2(-3)|=|-6|=6.<br>
+Observe que, quando b=-3, temos que -b=-(-3)=3.<br>
+Assim, quando a=2 e b=-3, temos que ab<0, de fato, o produto é ab=-6. Mas a(-b)>0, de fato, a(-b)=2(-(-3))=2.3=6.</p>
+<li>
+<i>Não consigo identificar qual método usar nas questões do teste 5. Essa foi a parte que mais me complicou!</i>
+<p>Em uma demonstração, quando temos uma informação que queremos usar para apoiar nosso argumento e essa informação apresenta alternativas: "vale isto ***ou*** vale aquilo", uma boa ideia é usar o Método de Prova por Casos.<br>
+Isso é o que acontece com demonstrações envolvendo o módulo de números reais, por exemplo. A definição de módulo é feita com base em alternativas: dado um número real x, temos que "x é maior ou igual a zero ***ou*** x é menor do que zero". Quando x é maior ou igual a zero, o módulo de x é igual a x. Quando x é menor do que zero, o módulo de x é igual a -x. Assim, para tirar conclusões sobre o módulo de um número real, é mais fácil trabalhar com os vários casos possíveis. Na Questão 3 do Teste 5, por exemplo, temos quatro casos: a e b são ambos maiores ou iguais a zero ***ou*** a é maior ou igual a zero e b é menor do que zero ***ou*** a é menor do que zero e b é maior ou igual a zero ***ou*** a e b são ambos menores do que zero.<br>
+Quando temos uma conclusão que queremos justificar que é uma negação: "isto ***não*** vale", uma boa ideia é usar o Método de Redução ao Absurdo. 
+Esse é o caso de demonstrações de inclusões onde o conjunto da direita é o complementar de um conjunto A, por exemplo. Nesse caso, tomamos um objeto genérico x que pertence ao conjunto da esquerda e a conclusão que devemos justificar é que x ***não*** pertence ao conjunto A (pois, daí, teremos que x pertence ao complementar do conjunto A).<br>
+Essa questão - de identificar que método usar na prova de determinado enunciado, era justamente o assunto do Quiz 5. Você não teve dificuldade nesse quiz? Essa é mesmo uma questão difícil, é natural que a dificuldade apareça. Por isso coloquei a questão no quiz, para vocês terem a oportunidade de discutir mais o assunto e tirar as dúvidas antes do teste.</p>
+<li>
+<p>A Questão 5 da Lista Delta é só pra quem gosta de Geometria Plana. Para quem gosta, eis uma sugestão de resposta:<br>
+Lista Delta - Questão 5<br>
+(a) { xEK : x é um losango }<br>
+(b) { xEK : x é um retângulo }<br>
+(c) { xEK : x é um quadrado }<br>
+(d) { xEK : x é um retângulo }<br>
+(e) { xEK : x é um quadrado }<br>
+(f) { xEK : x é um retângulo }</p>
+<li>
+<i>Professora, o conjunto vazio é elemento de qualquer conjunto. Então, eu poderia colocá-lo como interseção de quaisquer dois conjuntos a meu bel-prazer ? E representá-lo graficamente como único elemento comum a dois conjuntos pode ser { }, {{ }}, ø ou {ø}?</i>
+<p>
+O conjunto vazio está contido em qualquer conjunto. Ou seja, a relação de inclusão se estabelece entre o conjunto vazio e qualquer outro conjunto, nessa ordem. Dizendo ainda de outra forma: o conjunto vazio é um subconjunto de qualquer outro conjunto. Porque para o conjunto vazio *não estar contido* em algum outro conjunto, deveria haver um objeto que é elemento do conjunto vazio e não é elemento do outro conjunto. Como o conjunto vazio não tem nenhum elemento, isso nunca acontece e o conjunto vazio *está contido* em qualquer outro conjunto.<br>
+<br>
+Mas a relação de pertinência e a relação de inclusão são completamente independentes.<br>
+<br>
+Para um objeto ser elemento de um conjunto, este objeto deve aparecer na lista que apresenta os elementos do conjunto (se o conjunto for definido por uma lista) ou este objeto deve possuir a propriedade que caracteriza os elementos do conjunto (se o conjunto for definido por propriedade). Então existem vários conjuntos que não têm o conjunto vazio como elemento. Por exemplo, o conjunto vazio não é elemento do conjunto N de números naturais, o conjunto vazio não é elemento do conjunto {a,e,i,o,u} das vogais, o conjunto vazio não é elemento do conjunto Turma-B1-de-LNF de alunas e alunos da nossa turma, etc.<br>
+<br>
+Temos várias maneiras de definir o conjunto vazio por propriedade: basta escolher um universo e uma propriedade que nenhum objeto no universo possua. Por exemplo, { x E N : x é negativo } [aqui estou usando a letra E no lugar do símbolo da relação de pertinência] ou { x E U : x é diferente de x }, onde U é um conjunto universo qualquer.<br>
+Para definir o conjunto vazio por lista, basta abrir chave e fechar chave: { }.<br>
+O símbolo para o conjunto vazio é a letra do alfabeto escandinavo ø.<br>
+<br>
+{ { } } = { ø } é o conjunto que possui o conjunto vazio como seu único elemento.</p>
+<li>
+<i>Não entendi muito bem o quiz 4 quando a sr pede o complementar de A,B,C e D. O complementar que a sr pede é em relaçao ao conjunto do universo?</i>
+<p>Sim, o complementar é sempre em relação ao conjunto universo. Dados um conjunto A em um universo U, o complementar (ou complemento) de A é o conjunto cujos elementos são os objetos do universo U que não pertencem ao conjunto A.</p>
+<li>
+<i>Porque a maneira de realizar a prova para justificar que é verdadeira é daquele jeito? Tipo, colocar o termo "Prova" faz sentido, mas eu não entendo o pq do quadrado no final.</i>
+<p>É a tradição na Matemática e uma gentileza com nossos leitores, indicar o início e o fim das provas. Nem todos os autores fazem isso, mas a maioria faz. A palavra "demonstração" muitas vezes é preferida, no lugar de "prova", que é uma versão literal de "proof" (da língua inglesa). A palavra "proof", como usada em Matemática, traduz-se melhor por "demonstração". Mas acho que, no Brasil, usamos mais "prova" que "demonstração". Antes da facilidade do uso de símbolos na edição de textos, com o uso de computadores, usava-se a sigla QED, do latim "quod erat demonstrandum" (como queria demonstrar). Vejam como pronunciar a expressão (em latim) neste [<a href="https://youtu.be/U1aBmAJ4aLU" target=_blank>vídeo</a>].</p>
+<li>
+<i>Por que faz diferença se eu "inverter" a implicação?</i>
+<p>Se "invertemos" o sentido de uma implicação, seu significado muda. Por exemplo,  a generalização de implicação "para todo natural x, se x é múltiplo de 4, então x é par" é verdadeira, mas "para todo natural x, se x é par, então x é múltiplo de 4" é falsa. A implicação "se Q, então P" é chamada de recíproca de "se P, então Q". Uma implicação e sua recíproca têm significados diferentes.</p>
+<li>
+<i> Estou aqui tentando fazer os exercícios passados durante o vídeo da aula da Semana 3 e estou com uma dúvida:<br>
+Você quis dizer: "Todo número natural maior ou igual a 2 pode ser decomposto num produto de números primos." ou “Todo número natural maior ou igual a 2 pode ser escrito como produto de números primos”?<br>
+Pois para provar o primeiro passo no enunciado que você colocou, teríamos que provar que 2 pode ser escrito como produto de números primos, mas sabemos que 2 é primo e a única forma de escrever 2 como produto de 2 números naturais é escrevendo 2x1, mas 1 não é um número primo.</i>
+<p>Nesta frase, "produto de primos" deve ser entendido como "produto de um, dois, ou mais fatores primos", que deve ser, imagino, o que você chama de decomposição em fatores primos. Você entendeu perfeitamente. Em Matemática temos muita ambiguidade: já vimos um exemplo onde "soma de ímpares" era a soma de dois ímpares, agora temos um exemplo onde "produto de primos" é o produto de um, dois, ou mais primos! Tem que ficar esperto e conhecer o contexto para interpretar corretamente. Escrever Matemática não é fácil. Ler também não.</p>
+<li>
+<i>Eu tive bastante dificuldade com a indução em inequações e talvez restrições numéricas. Tomemos por exemplo o exercício 1 (f) da lista gama, na qual devemos provar que 2n + 1 < n^2 para todo n>=3. Nesse exemplo só consigo provar que um k qualquer tem que ser maior que raiz de dois, mas mesmo que se trate do conjunto dos naturais, isso não me parece excluir o número 2, que é maior que raiz de 2 e menor que 3. Como eu poderia fazer isso? Vi seu vídeo de resolução mas para esta questão não consigo ver como aplicá-lo.</i>
+<p>Não vale a pena reescrever a desigualdade em termos de raiz quadrada. Acho que dificulta... No passo de indução, você deve mostrar que 2(n+1)+1 < (n+1)^2.  Vamos examinar melhor o lado esquerdo e o lado direito dessa desigualdade, para facilitar a comparação:<br>
+<br>
+2(n+1) + 1 = (2n+2) + 1 =  (2n+1) + 2<br>
+<br>
+(n+1)^2 = n^2 + 2n + 1 = n^2 + (2n+1)<br>
+<br>
+Comparando os dois lados, depois do desenvolvimento, vemos que basta mostrar que 2 < 2n+1 (*) e, como temos que 2n+1 < n^2 (**) pela hipótese de indução, dá pra chegar na desigualdade que queremos garantir no passo, somando (*) e (**).Mas, como n >= 3, temos que 2n+1 >= 2x3+1 = 7 > 2. Ou seja, a desigualdade (*) é fácil de obter.<br>
+<br>
+Nestes exercícios de provas por indução, como em qualquer exercício de demonstração, o caminho a seguir costuma aparecer quando desenvolvemos um pouco as informações dadas (nosso ponto de partida) e também tentamos destrinchar as informações a serem obtidas (nosso ponto de chegada).
+<li>
+<i>Estava aqui tentando fazer o teste que você nos mandou hoje e me surgiu uma dúvida quanto à interpretação do enunciado (b). No teste está escrito: "A soma de números ímpares é um número par".
+Esse enunciado dá brechas de que haja por exemplo um número que seja escrito como a soma de 3 números ímpares. Sei que nesse caso a resposta seria que é falso, mas se você quis dizer "A soma de DOIS números ímpares é um número par", como acredito que seja o caso, a resposta seria diferente. 
+Se puder, gostaria que você me esclarecesse quanto a isso: São apenas dois termos a serem somados ou poderiam haver mais?</i>
+<p>A operação de adição é considerada binária, a menos que se diga algo em contrário. Então você tem razão, nesse caso se trata da soma de *dois* números (distintos ou não).</p>
+<li>
+Sobre a resolução da Questão 1 do Teste 1 (a propósito do exemplo de redação de justificativas apresentado na <a href="https://defreitas-renata.github.io/homepage/lnf_2020-1.html" target=_blank>página</a>): a justificativa do item (d) só está completa se considerarmos a informação "o conjunto {2,{2}} possui dois elementos, que são: o número 2 e o conjunto {2}".
+<li>
+Sobre a definição de número primo, a propósito do item 2 do Problema 4 (Aula 2): o número 1 possui como únicos divisores o 1 e ele mesmo. Mas o número 1 não é primo. Por isso, a propriedade "P(x) : os únicos divisores de x são 1 e o próprio x" não é equivalente à propriedade "Q(x) : x e primo".
+<li>Sobre a questão 1 da lista Dodge: no item (a) não temos um conjunto bem-definido, pois não temos um critério preciso para identificar quando uma pessoa é comunista. No item (b) temos um conjunto: para determinar se uma pessoa é filiada ao PCdoB no estado do Rio, basta consultar o TRE.
+<li>
+<i>Fiquei em dúvida na questão 3 da lista alfa.</i>
+<p>Releia o texto da Aula 2, a parte de definição de conjuntos por lista e por propriedade é a Seção 4 (no vídeo, essa parte começa em 07:07). Veja o último exemplo da Seção 4 (página 6): temos três maneiras diferentes de definir o conjunto dos números pares por propriedade, em uma delas a propriedade é apresentada de maneira simples, em português ("x é par"), o universo considerado é o conjunto dos números naturais. Uma descrição em português da propriedade desta forma "x é par" é perfeitamente adequada para a descrição de um conjunto. (Não é muito útil para provar propriedades sobre os números pares, mas aí já é outra história.)</p>
+<li>
+<i>Necessariamente um conjunto que está contido [em outro] também tem que pertencer ao [outro] conjunto ou [esses conceitos] são independentes entre si?</i>
+<p>Inclusão e pertinência são conceitos independentes. Dados dois conjuntos A e B, pode ser que A esteja contido em B sem que A pertença a B, pode ser que A não esteja contido em B mas pertença a B, pode ser que A pertença a B e também esteja contido em B, pode ser que A não pertença a B e nem esteja contido em B.</p>
+<li>
+<i>Fiquei com uma dúvida no texto, o texto fala que os N, Z, Q e R são conjuntos infinitos mas o infinito pertence a eles?</i>
+<p>O "infinito" (seja lá o que for isso) não é um número. Logo, não pertence a nenhum conjunto numérico. No nosso curso, usamos a palavra infinito apenas como adjetivo. Não tratamos de um objeto chamado "infinito". Apenas classificamos conjuntos como infinitos ou finitos. Vejam o que a Kyne fala aqui neste <a href="https://www.tiktok.com/@onlinekyne/video/6860935779581955333?sender_device=pc&sender_web_id=6905084646875383301&is_from_webapp=1" target=_blank>vídeo</a>: "... infinite is not a number in the number line, it is the size of the number line ..." [infinito não é um número na reta numérica (ou em um conjunto numérico, como dizemos aqui), é o tamanho da reta numérica (o tamanho do conjunto de números)]. Algumas vezes acrescentamos aos conjuntos numéricos (ao conjunto dos números reais, em particular) um objeto, que *não é um número real*, às vezes chamado "infinito", para trabalhar em geometria projetiva, por exemplo, ou para facilitar a notação em cálculo. Mas isso também já é uma outra história.</p>
+<li>
+<i>O problema foi representar os números primeiros primos.</i>
+<p>Não é preciso apresentar a definição de número primo, basta considerar a propriedade "P(x) : x é primo". Mas, se quiser a definição, pode ser assim: "P(x) : x possui exatamente dois divisores", ou "P(x) : x é diferente de 1 e seus únicos divisores são 1 e x", por exemplo. O conjunto F da Lista Alfa poderia ser definido por propriedade assim: F = { x pertencente a N : x é primo e x é menor que 8 } ou assim F = { x pertencente a N : se y é divisor de x, então y é 1 ou y é x, x não é 1, e x é menor que 8 } ou assim F = { x pertence a P : x é menor que 8 }, onde P é o conjunto dos números primos. Podemos também trocar "y é divisor de x" por "x = yk, onde k é natural".</p>
+<li>
+<i>O “estar contido” pode ser usado sem aquele traço na parte de baixo ou,sem o traço,tem outro significado? É que,antes da sua aula,sempre usei sem o traço...</i>
+<p>O símbolo usado para denotar a inclusão varia de autor para autor. Com o traço embaixo, sempre siginifica "está contido ou é igual"; sem o traço, às vezes significa "está contido ou é igual" e às vezes significa "está contido, mas é diferente" (inclusão própria). No nosso curso, estamos usando apenas com o traço embaixo e usamos com traço cortado embaixo para indicar inclusão própria (como no último exercício da Lista Beta).</p>
+<li>
+<i>Necessariamente um conjunto que está contido também tem que pertencer ao conjunto ou são independentes entre si?</i>
+<p>Os conceitos de inclusão e pertinência são completamente independentes. Podemos dar exemplos de conjuntos A e B de modo que: (1) A pertence a B e A está contido em B, (2) A pertence a B e A não está contido em B, (3) A não pertence a B e A está contido em B, (4) A não pertence a B e A não está contido em B.
+Exemplos: (1) {a} pertence a { a, e, i, o, u, {a}, {b} }, {a} está contido em { a, e, i, o, u, {a}, {b} }, (2) exercício, (3) exercício, (4) exercício.</p>
+<i>No vídeo que a prof fez resolvendo os exercícios da pra entender legal.</i>
+<li>
+<i>{ } pertence e está contido em {{ },1,2,3}. Correto?</i>
+<p>Correto: o conjunto vazio, representado por { }, pertence ao conjunto {{ },1,2,3} (pois está listado como um dos seus elementos) e também está contido em {{ },1,2,3} (pois não existe objeto que seja elemento de { } e não seja elemento de {{ },1,2,3}).</p>
+<li>
+<p>Dica para a Lista Dogde, número 2, item (g): considerar a listagem da receita federal contendo os CPFs de pessoas que pagaram mais de 500 mil reais de imposto de renda em 2019.<p>
+<li>
+<i>Supondo que tenho um conjunto A={2} e um conjunto B={{2},3,4}. A afirmação "A está contido em B" é falsa?</i>
+<p>Sim, é falsa. Porque existe (pelo menos) um objeto no universo, no caso o número 2, que é um elemento de A mas não é elemento do conjunto B. Os elementos de B são o conjunto cujo único elemento é 2 (como você disse) e os números 3 e 4 (o número 2 não é um elemento de B, portanto).</p>
+<li>
+<i>Também tenho dúvida em relação a lista alfa na questão 2. Como eu posso justificar a minha resposta da melhor forma?</i>
+<p>Nesse exercício os conjuntos são apresentados por listagem. Nesse caso, a justificativa é fácil, mas trabalhosa. 
+Para mostrar que um objeto pertence a um conjunto apresentado por listagem, devemos verificar que o nome do objeto aparece na lista que define o conjunto.
+Para mostrar que um objeto não pertence a um conjunto apresentado por listagem, devemos verificar que o nome do objeto não aparece na lista que define o conjunto.
+Para mostrar que um conjunto X está contido em um conjunto Y quando os dois foram apresentados por listagem, devemos verificar que cada objeto cujo nome aparece na lista que define X também tem seu nome na lista que define Y.
+Para mostrar que um conjunto X não está contido em um conjunto Y quando os dois foram apresentados por listagem, devemos exibir um objeto cujo nome aparece na lista que define X mas que não tem seu nome na lista que define Y.</p>
+<li>
+<i>Na Lista Alfa, Questão 3, tive dificuldade com a definição de número primo.</i>
+<p>Lembre que um número natural é primo quando é diferente de 1 e seus únicos divisores são 1 e ele próprio. Mas não é preciso escrever a definição de número primo para resolver o exercício. A definição por propriedade do conjunto B, por exemplo, pode ser dada simplesmente assim: B = { x pertencente a N / x é primo e x < 11 }. Atenção: o número 1 não é um número primo. Vejam uma explicação, neste <a href="https://www.tiktok.com/@onlinekyne/video/6852821413141712133?sender_device=pc&sender_web_id=6905084646875383301&is_from_webapp=1" target=_blank>vídeo</a>.</p>
+</ol>
+
+<div class="line"></div>
+
+Treze de outubro é dia de comemorar a presença das mulheres nas ciências exatas (ciências, engenharia, tecnologia, computação e matemática): é o 
+<a href="https://www.welivesecurity.com/br/2017/10/10/ada-lovelace-day-mulheres-tecnologia/" target=_blank>Dia da Ada Lovelace</a>.
+
+</div>
+
+<div class="clear"></div>
+</div>
+</section>
+
+        <footer>
+            <div class="footer-container">
+
+<p style="text-align:right;"><font size=-1>Atualizada em 11 de dezembro de 2020 &#127802;.</p>
+
+        </footer>
+
+    </body>
+
+</html>
