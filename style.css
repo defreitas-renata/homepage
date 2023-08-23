@@ -43,6 +43,11 @@ p{
 	line-height: 1.25em;
 }
 
+ul,
+ol {
+	padding-left: 40px;
+}
+
 /* header */
 
 header{
