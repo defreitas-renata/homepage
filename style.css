@@ -1,6 +1,6 @@
 /* reset */
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -46,6 +46,10 @@ p{
 ul,
 ol {
 	padding-left: 40px;
+}
+
+li {
+	margin-bottom: 10px;
 }
 
 img {
@@ -141,8 +145,8 @@ header::after{
 	font-size: 1.125em;
 }
 
-.teaching p{
-	padding: 3px 0;
+.teaching p {
+	padding: 10px 0;
 }
 
 .teaching a{
