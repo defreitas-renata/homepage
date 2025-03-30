@@ -63,33 +63,16 @@ header{
 	color: #F4EAE4;
 }
 
-.header-container{
-	height: 100px;
-	padding: 0 38px;
+.header-container {
+	padding: 30px;
 	max-width: 960px;
 	margin: 0 auto;
 }
 
-header h2{
+header h2 {
 	font-size: 2em;
 	font-weight: 100;
 	text-transform: uppercase;
-	float: left;
-	position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-
-}
-
-.header-info {
-	float: right;
-	position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-}
-
-.header-info p{
-	padding: 2px 0;
 }
 
 .header-info a{
@@ -102,11 +85,6 @@ header h2{
 	color: #a7e0d6;
 }
 
-header::after{
-	content:'';
-	display: table;
-	clear: both;
-}
 
 /* teaching */
 
