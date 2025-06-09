@@ -226,6 +226,59 @@ sabendo que todos os 8 bombons foram encontrados?
 - Quantos são os anagramas da palavra CONTAGEM em que as vogais não ocupam suas posições originais 
     (a letra O não está na segunda posição, a letra A não está na quinta posição, nem a letra E está na sétima posição)?
 </p><p>
+<strong>5/6/2025 - Permutações Caóticas</strong><br>
+- Considere a definição a seguir:<br>
+Seja n um número natural não nulo.
+O número de permutações caóticas de uma sequência de n objetos é:
+D(n) = C(n,0)n! - C(n,1)(n-1)! + C(n,2)(n-2)! - C(n,3)(n-3)! + ... + (-1)^n C(n,n)0!<br>
+Prove que, para todo número natural não nulo n, temos que:<br>
+(a) D(n) = n!(1/0! - 1/1! + 1/2! - 1/3! + ... + (-1)^n 1/n!).<br>
+(b) D(1)=0, D(2)=1, e D(n)=(n-1)(D(n-2)+D(n-1)) quando n>2.
+- Tente fazer também os problemas da Sala de Estudos 
+<a href="http://clubes.obmep.org.br/blog/sala-de-estudo-permutacao-caotica/" target=_blank><i>Permutações Caóticas - Clubes de Matemática da OBMEP</i></a>.
+</p><p>
+<strong>10/6/2025 - Relações de recorrência e provas por indução</strong><br>
+(1) A sequência de <i>números triangulares</i> é definida pela relação de recorrência a seguir:<br>
+T(1) = 1, e T(n) = T(n-1)+n quando n>1.<br>
+<img src="combinatoria/images/triangulares.png" width="500" height="auto"><br>
+(a) Mostre que, para todo número natural não nulo n, temos que T(n) = n(n+1)/2.<br>
+(b) Mostre também que, para todo número natural não nulo n, temos que 1+2+3+...+n = n(n+1)/2.<br>
+(2) A sequência de <i>números quadrados</i> é apresentada a seguir:<br>
+<img src="combinatoria/images/quadrados.png" width="500" height="auto"><br>
+(a) Encontre uma relação de recorrência para a sequência de números quadrados Q(n).<br>
+(b) Mostre que, para todo número natural não nulo n, temos que Q(n) = n^2.<br>
+(c) Mostre também que, para todo número natural não nulo n, T(n)+T(n+1)=Q(n) 
+(a soma de números triangulares consecutivos é um número quadrado).<br>
+(3) Considere a sequência I(n) de números ímpares.<br>
+(a) Encontre uma relação de recorrência para a sequência de números ímpares I(n).<br>
+(b) Mostre que, para todo número natural não nulo n, temos que I(n) = 2n-1.<br>
+(c) Encontre uma relação de recorrência para a sequência de somas dos n primeiros números ímpares SI(n).
+(Por exemplo, SI(4)=1+3+5+7 é a soma dos 4 primeiros números ímpares.)<br>
+</p><p>
+<strong>12/6/2025 - Princípio das Casas de Pombo</strong><br>
+Assista ao vídeo <i>O Princípio do Pombal</i>:
+[<a href="https://youtu.be/p2b-I3LOadg?si=54Roje4K3MybUx3m" target=_blank>youtube</a>]
+(série <i>Isto é Matemática</i>, da Sociedade Portuguesa de Matemática - episódio 8, temporada 6)
+e faça os exercícios:<br>
+(1) Mostre que, se uma turma tem 15 pessoas inscritas, pelo menos duas delas fazem aniversário no mesmo mês.<br>
+(2) Qual o número mínimo de pessoas que devemos reunir para que tenhamos certeza de que duas entre elas fazem aniversário no mesmo mês?<br>
+(3) Uma caixa tem bolas vermelhas, brancas, ou rosas. Mostre que, se retirarmos 6 bolas da caixa, pelo menos duas delas serão da mesma cor.<br>
+(4) Qual o número mínimo de bolas que devemos retirar da caixa para garantirmos que temos duas bolas da mesma cor?<br>
+(5) Em torno do IMPA foram catalogadas 106 jaqueiras. 
+    É conhecido que cada uma dessas jaqueiras não produz anualmente mais do que 92 frutos. 
+    Mostre que duas dessas jaqueiras produziram, em 2024, a mesma quantidade de frutos.<br>
+(6) São escolhidos cinco pontos, ao acaso, sobre a superfície de um quadrado de lado 2.
+Mostre que pelo menos um dos segmentos determinados por dois desses pontos tem comprimento, no máximo, igual a √2.<br>
+(7) Mostre que, se 21 pombos entram em 10 casas de pombo, então pelo menos 3 pombos entram na mesma casa.<br>
+(8) A Mega-Sena paga o prêmio principal para o acertador dos 6 números sorteados dentre os 60 disponíveis no volante de a​postas.
+    Uma <i>aposta mínima</i> consiste na escolha de 6 números dentre os 60 disponíveis.
+    (a) Quantas apostas mínimas em um mesmo sorteio da Mega Sena que devemos fazer para termos a certeza 
+    de que ganharemos o prêmio principal?
+    Vamos chamar essa quantidade de apostas mínimas em um mesmo sorteio da Mega Sena de "aposta garantida". 
+    (b) Sabendo que a aposta mínima custa 5 reais, de quanto deve ser o prêmio para que essa "aposta garantida" não seja um prejuízo?<br>
+(*) Problemas da Sala de Estudos <i>Princípio das Casas de Pombos</i>, da OBMEP: 
+[<a href="http://clubes.obmep.org.br/blog/sala-de-estudos-principio-das-casas-dos-pombos/alguns-problemas/" target=_blank>link</a>].
+</p><p>
 <strong>* Mais exercícios (opcionais)</strong><br>
 . <a href="https://defreitas-renata.github.io/homepage/combinatoria/quadradinhos_vovo.html" target=_blank>Quadradinhos da Vovó</a>
 . <a href="https://defreitas-renata.github.io/homepage/combinatoria/fantasma_blitz.html" target=_blank>Fantasma Blitz</a>
@@ -350,7 +403,7 @@ que o Professor Edsger W. Dijkstra escreveu para sua turma (a versão em portugu
 
 <footer>
 <div class="footer-container">
-<p style="text-align:right;"><font size=-1>Atualizada em 4 de junho de 2025. &#127810; 
+<p style="text-align:right;"><font size=-1>Atualizada em 9 de junho de 2025. &#127810; 
     <!-- primavera &#127800; verão &#127774; outono &#127810; lápis e papel &#128221;--> </p>
 </footer>
 
